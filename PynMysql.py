@@ -30,7 +30,7 @@ table_key=[((700,460),5,'city'),
 def insert_window(xy):
     window = tk.Toplevel(root)
     window.geometry(str(xy[0])+'x'+str(xy[1])+'+300+100')
-    window.title('cringe')
+    window.title('edit table: city')
     return window
 
 
